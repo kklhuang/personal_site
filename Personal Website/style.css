@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .sa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .skills {
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .accomplishments {
+    flex: 50%; /* Set the width of the main content */
+    background-color: #f1f1f1; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .sa {
+      flex-direction: column;
+    }
+  }
+
+
+
+
+    /* Column container */
+  .sa_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .skills_content {
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: #ffffff; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .accomplishments_content {
+    flex: 50%; /* Set the width of the main content */
+    background-color: #ffffff; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+
+
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .sa_content {
+      flex-direction: column;
+    }
+  }
+
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies_header {
+    flex: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.hobbies_content {
+    flex: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_info {
+    flex: 100%;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+  
+
+
