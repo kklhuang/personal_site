@@ -1,4 +1,13 @@
-* {
+body {
+    background-color: #fff7e0;
+}
+
+div {
+    color: #78483b; 
+}
+
+
+*{
     box-sizing: border-box;
   }
   
@@ -12,14 +21,14 @@
   /* Sidebar/left column */
   .skills {
     flex: 50%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
+    background-color: #f2969b; /* Grey background color */
     padding: 20px; /* Some padding */
   }
   
   /* Main column */
   .accomplishments {
     flex: 50%; /* Set the width of the main content */
-    background-color: #f1f1f1; /* White background color */
+    background-color: #f2969b; /* White background color */
     padding: 20px; /* Some padding */
   }
 
@@ -43,14 +52,12 @@
   /* Sidebar/left column */
   .skills_content {
     flex: 50%; /* Set the width of the sidebar */
-    background-color: #ffffff; /* Grey background color */
     padding: 20px; /* Some padding */
   }
   
   /* Main column */
   .accomplishments_content {
     flex: 50%; /* Set the width of the main content */
-    background-color: #ffffff; /* White background color */
     padding: 20px; /* Some padding */
   }
 
@@ -71,13 +78,12 @@
 
 .hobbies_header {
     flex: 100%;
-    background-color: #f1f1f1;
+    background-color: #f2969b;
     padding: 20px;
 }
 
 .hobbies_content {
     flex: 100%;
-    background-color: white;
     padding: 20px;
 }
 
