@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Proxima+Nova);
-
 body {
     background-color: #fff7e0;
 }
 
 div {
     color: #78483b; 
+    font-family: 'Proxima Nova', normal;
 }
 
 
