@@ -37,29 +37,23 @@ div {
 
 
   .top {
+    position: relative;
     display:flex;
     flex-wrap: wrap;
   }
 
   .header_left {
+    position: relative;
     flex: 50%; 
     background-color: #C0D0EA; 
     padding: 20px; 
 
     height: 491px;
 
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 99px;
-
-    text-align: right;
-
-    color: #FFFFFF;
   }
 
   .header_right {
+    position: relative;
     flex: 50%; 
     background-color: white; 
     padding: 20px;
@@ -67,16 +61,59 @@ div {
     height: 491px;
 
 
+  }
+
+  .greeting {
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 99px;
+
+    top: 15%;
+    right: 35%;
+
+    text-align: right;
+
+    color: #FFFFFF;
+  }
+
+  .left_text{
+    position: relative;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 99px;
 
+    top: 15%;
+
+    text-align: right;
+
+    color: #FFFFFF;
+  }
+
+  .right_text {
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 99px;
+
+    top: 37%;
+
     text-align: justify;
 
     color: #C0D0EA;
+
   }
 
+  .socials{
+    position: relative;
+    font-size: 30px;
+    color: #C0D0EA;
+    text-align: right;
+    top: 70%;
+  }
 
 
 
