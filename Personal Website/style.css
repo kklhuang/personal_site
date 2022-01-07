@@ -113,8 +113,28 @@ div {
     color: #C0D0EA;
     text-align: right;
     top: 70%;
+    text-decoration: none;
   }
 
+  .socials a:link { 
+    text-decoration: none; 
+    color: #C0D0EA;
+  }
+
+  .socials a:visited { 
+    text-decoration: none; 
+    color: #C0D0EA;
+  }
+  
+  .socials a:hover { 
+    text-decoration: none; 
+    color: #9db4d8;
+  }
+  
+  .socials a:active { 
+    text-decoration: none; 
+    color: #C0D0EA;
+  }
 
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -170,7 +190,6 @@ div {
 
 
 
-
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -188,17 +207,6 @@ div {
 }
 
 
-
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact_info {
-    flex: 100%;
-    background-color: antiquewhite;
-    padding: 20px;
-}
   
 
 
