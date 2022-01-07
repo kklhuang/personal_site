@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
 body {
     background-color: #fff7e0;
 }
 
 div {
     color: #78483b; 
-    font-family: 'Proxima Nova', normal;
+    font-family:'Proxima Nova', normal;
 }
 
 
@@ -22,16 +24,61 @@ div {
   /* Sidebar/left column */
   .skills {
     flex: 50%; /* Set the width of the sidebar */
-    background-color: #f2969b; /* Grey background color */
+    background-color: #F4D6D7; /* Grey background color */
     padding: 20px; /* Some padding */
   }
   
   /* Main column */
   .accomplishments {
     flex: 50%; /* Set the width of the main content */
-    background-color: #f2969b; /* White background color */
+    background-color: #F4D6D7; /* White background color */
     padding: 20px; /* Some padding */
   }
+
+
+  .top {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .header_left {
+    flex: 50%; 
+    background-color: #C0D0EA; 
+    padding: 20px; 
+
+    height: 491px;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 99px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+  }
+
+  .header_right {
+    flex: 50%; 
+    background-color: white; 
+    padding: 20px;
+
+    height: 491px;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 99px;
+
+    text-align: justify;
+
+    color: #C0D0EA;
+  }
+
+
+
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -75,7 +122,7 @@ div {
 
 .hobbies_header {
     flex: 100%;
-    background-color: #f2969b;
+    background-color: #F4D6D7;
     padding: 20px;
 }
 
@@ -94,7 +141,7 @@ div {
 
 .projects_header {
     flex: 100%;
-    background-color: #f2969b;
+    background-color: #F4D6D7;
     padding: 20px;
 }
 
