@@ -1,5 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css?family=Proxima+Nova"); */
 @import url("https://fonts.googleapis.com/css?family=Mulish");
+@import url("https://fonts.googleapis.com/css?family=Signika");
 
 body {
     background-color: #FFFEFC;
@@ -93,9 +94,10 @@ nav li a:hover {
 
   .greeting {
     position: relative;
+    font-family: "Signika", serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 99px;
 
     top: 15%;
@@ -108,9 +110,10 @@ nav li a:hover {
 
   .left_text{
     position: relative;
+    font-family: "Signika", serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 100px;
     line-height: 99px;
 
     top: 40%;
@@ -118,13 +121,18 @@ nav li a:hover {
     text-align: right;
 
     color: #FFFEFC;
+
+    animation-name: enterLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   .right_text {
     position: relative;
+    font-family: "Signika", serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 100px;
     line-height: 99px;
 
     top: 40%;
@@ -133,7 +141,23 @@ nav li a:hover {
 
     color: #F4D6D7;
 
+    animation-name: enterRight;
+    animation-duration: 2.4s;
+    animation-fill-mode: forwards;
+
   }
+
+  @keyframes enterRight {
+    from {top: 0%;}
+    to {top: 40%;}
+  }
+
+  @keyframes enterLeft {
+    from {top: 0%;}
+    to {top: 40%;}
+  }
+ 
+
 
   .socials{
     position: relative;
