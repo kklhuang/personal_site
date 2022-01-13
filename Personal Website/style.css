@@ -178,6 +178,10 @@ div {
   }
 
 
+ 
+
+
+
 
   @media screen and (max-width: 700px) {
     .introduction {
@@ -185,17 +189,49 @@ div {
     }
   }
 
+  /* .introduction{
+    animation-name: enterIntro;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+
+  } */
+
+  @media (prefers-reduced-motion: no-preference) {
+    .introduction-animation {
+      animation: enterIntro 1.8s 1;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  @keyframes enterIntro {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
 
   .intro_content {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
+
+  }
+
+  .photos{
+    flex: 50%
+  }
+
+  .words{
+    flex: 50%;
+    margin: auto;
+    margin-left: auto; 
+    margin-right: auto;
   }
   
   .photo_self {
     flex: 50%; 
     padding: 50px; 
     text-align: center;
-    
+
   }
 
   .bio {
@@ -206,9 +242,6 @@ div {
     margin-right: auto;
     
   }
-
-
-
 
   .me_gif{
     position: relative;
@@ -291,8 +324,5 @@ div {
     flex: 100%;
     padding: 20px;
 }
-
-
-  
 
 
