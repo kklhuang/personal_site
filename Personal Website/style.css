@@ -38,13 +38,13 @@ div {
   }
 
 
-  .skills_content{
+  .skills_content, .projects1_content, .projects2_content{
       position: relative;
       display: flex;
       flex-wrap: wrap;
   }
 
-  .langs_box{
+  .langs_box, .tech_box{
     flex: 50%;
     margin: auto;
     margin-left: auto; 
@@ -52,13 +52,16 @@ div {
   }
 
 
-  .tech_box{
-    flex: 50%;
+  .finn_box, .schooldule_box, .to-do_box,
+  .coco_box, .tetris_box, .portfolio_box{
+    flex: 30%;
     margin: auto;
     margin-left: auto; 
     margin-right: auto;
-  }
+    text-align: center;
+    padding: 20px; 
 
+  }
 
 
   .skills_header {
@@ -256,8 +259,68 @@ div {
 }
 
 
+.coco_content a:link, 
+.finn_content a:link { 
+  text-decoration: none; 
+  color: #6284c9;
+}
+
+.coco_content a:visited,
+.finn_content a:visited { 
+  text-decoration: none; 
+  color: #6284c9;
+}
+
+.coco_content a:hover,
+.finn_content a:hover { 
+  text-decoration: none; 
+  color: #4362a1;
+}
+
+.coco_content a:active,
+.finn_content a:active { 
+  text-decoration: none; 
+  color: #4362a1;
+}
 
 
+
+
+.coco_header a:link, 
+.portfolio_header a:link, 
+.tetris_header a:link, 
+.finn_header a:link, 
+.to-do_header a:link, 
+.schooldule_header a:link { 
+  color: #78483b;
+}
+
+.coco_header a:visited,
+.portfolio_header a:visited, 
+.tetris_header a:visited, 
+.finn_header a:visited, 
+.to-do_header a:visited, 
+.schooldule_header a:visited { 
+  color: #78483b;
+}
+
+.coco_header a:hover,
+.portfolio_header a:hover, 
+.tetris_header a:hover, 
+.finn_header a:hover, 
+.to-do_header a:hover, 
+.schooldule_header a:hover { 
+  color: #a37265;
+}
+
+.coco_header a:active,
+.portfolio_header a:active, 
+.tetris_header a:active, 
+.finn_header a:active, 
+.to-do_header a:active, 
+.schooldule_header a:active { 
+  color: #78483b;
+}
 
 
 
@@ -317,7 +380,7 @@ div {
 .me_gif{
   position: relative;
   top: -40px;
-  left: 5%;
+  left: 10%;
 }
 
 
@@ -348,6 +411,7 @@ div {
 .projects_content2 {
     flex: 100%;
     padding: 20px;
+    
     
 }
 
@@ -390,12 +454,12 @@ div {
 footer {
   color: #78483b; 
   background-color: #F4D6D7;
-  font-family:'Signika', "light";
   text-align: center;
 }
 
 
 .responsive {
-  width: 30%;
+  width: 33%;
   height: auto;
+  border-radius: 1%;
 }
