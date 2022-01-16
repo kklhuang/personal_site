@@ -38,12 +38,6 @@ div {
   }
 
 
-
-
-
-
-
-
   .skills_content{
       position: relative;
       display: flex;
@@ -78,7 +72,12 @@ div {
   .skills {
     flex: 50%; 
     padding: 20px; 
+    font-size: 30px;
+    font-family: "Signika", serif;
+    font-style: normal;
+    
   }
+
 
   
 @media screen and (max-width: 700px) {
@@ -88,19 +87,13 @@ div {
 }
 
 
-.langs_box {
-  flex: 50%; 
-  padding: 20px; 
-  text-align: center;
-}
-
-
+.langs_box,
 .tech_box {
   flex: 50%; 
   padding: 20px; 
   text-align: center;
-} 
-
+  
+}
 
 
 
@@ -253,8 +246,6 @@ div {
   color: #F4D6D7;
 }
 
-
-
 .drawn_logo {
   position: absolute;
   top: 30px;
@@ -275,12 +266,6 @@ div {
     flex-direction: column;
   }
 }
-
-/* .introduction{
-  animation-name: enterIntro;
-  animation-duration: 1.8s;
-  animation-fill-mode: forwards;
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .introduction-animation {
@@ -337,53 +322,80 @@ div {
 
 
 
+@media screen and (max-width: 700px) {
+  .projects {
+    flex-direction: column;
+  }
+}
 
+.projects_header {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #F4D6D7; 
+}
 
+.projects_title {
+  flex: 50%; 
+  padding: 20px; 
+  font-size: 30px;
+  font-family: "Signika", serif;
+  font-style: normal;
+  
+}
+
+.projects_content, 
+.projects_content2 {
+    flex: 100%;
+    padding: 20px;
+    
+}
 
 
 
 
 
 @media screen and (max-width: 700px) {
-  .sa_content {
+  .hobbies {
     flex-direction: column;
   }
 }
 
-
-.hobbies {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .hobbies_header {
-    flex: 100%;
-    background-color: #F4D6D7;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #F4D6D7; 
 }
 
-.hobbies_content {
+.hobbies_title {
+  flex: 50%; 
+  padding: 20px; 
+  font-size: 30px;
+  font-family: "Signika", serif;
+  font-style: normal;
+  
+}
+
+.hobbies_content{
     flex: 100%;
     padding: 20px;
+    text-align: center;
+    
 }
 
 
 
 
-
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
+footer {
+  color: #78483b; 
+  background-color: #F4D6D7;
+  font-family:'Signika', "light";
+  text-align: center;
 }
 
-.projects_header {
-    flex: 100%;
-    background-color: #F4D6D7;
-    padding: 20px;
-}
 
-.projects_content {
-    flex: 100%;
-    padding: 20px;
+.responsive {
+  width: 30%;
+  height: auto;
 }
