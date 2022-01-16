@@ -29,3 +29,5 @@ function choosePicIntro() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("myPictureIntro").src = myPix[randomNum];
 }
+
+// source: https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10
