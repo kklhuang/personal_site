@@ -15,3 +15,17 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
+
+// source: https://alvarotrigo.com/blog/css-animations-scroll/
+
+
+window.onload = choosePicIntro;
+
+var myPix = new Array("photos/euphtromb.jpg","photos/intro_photo_1.jpg","photos/tromb.jpg", "photos/selfie.jpg");
+
+function choosePicIntro() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("myPictureIntro").src = myPix[randomNum];
+}
