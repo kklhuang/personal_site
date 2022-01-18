@@ -16,9 +16,6 @@ div {
   }
   
 
-
-
-
   @media (max-width: 900px){
     section .skills_content{
       flex-direction: column;
@@ -417,8 +414,6 @@ div {
 
 
 
-
-
 @media screen and (max-width: 700px) {
   .hobbies {
     flex-direction: column;
@@ -449,8 +444,6 @@ div {
 }
 
 
-
-
 footer {
   color: #78483b; 
   background-color: #F4D6D7;
@@ -463,3 +456,5 @@ footer {
   height: auto;
   border-radius: 1%;
 }
+
+
