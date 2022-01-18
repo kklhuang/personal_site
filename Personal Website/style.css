@@ -257,25 +257,29 @@ div {
 
 
 .coco_content a:link, 
-.finn_content a:link { 
+.finn_content a:link,
+.schooldule_content a:link { 
   text-decoration: none; 
   color: #6284c9;
 }
 
 .coco_content a:visited,
-.finn_content a:visited { 
+.finn_content a:visited,
+.schooldule_content a:visited { 
   text-decoration: none; 
   color: #6284c9;
 }
 
 .coco_content a:hover,
-.finn_content a:hover { 
+.finn_content a:hover,
+.schooldule_content a:hover { 
   text-decoration: none; 
   color: #4362a1;
 }
 
 .coco_content a:active,
-.finn_content a:active { 
+.finn_content a:active,
+.schooldule_content a:active { 
   text-decoration: none; 
   color: #4362a1;
 }
